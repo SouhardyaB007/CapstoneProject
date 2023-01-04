@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+
+
+.navbar_logo{
+    width: 130px;
+    margin-left: 18px;
+    border-radius: 18px;
+  }
+  header img {
+    height: 80px;
+    margin-left: 40px;
+  }
+  
+  main {
+    color: antiquewhite;
+    position: sticky;
+  }
+  
+  ul{
+  margin-bottom: 0px;    
+  }
+  
+  header {
+    z-index:1;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 #42bd29;
+  }
+  #userName{
+    text-shadow: 2px 2px #9fc3c1;
+    font-size: 28px;
+    margin-left: 50%;
+}
+  header * {
+    display: flex;
+  }
+  
+  header li {
+    margin: 25px;
+  }
+  
+  header li a {
+    width: 400px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+  }
